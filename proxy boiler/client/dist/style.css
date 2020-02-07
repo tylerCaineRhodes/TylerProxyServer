@@ -1,0 +1,8 @@
+.wowes {
+  margin-left: 21%;
+  margin-right: 22%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
