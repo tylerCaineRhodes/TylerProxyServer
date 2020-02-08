@@ -5,6 +5,40 @@
   display: block;
   max-width: 1032px;
 }
+.grid-container {
+  height: 617px;
+  display: inline-block;
+  /* background-color: grey;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 100px 500px ; */
+  position: relative;
+  content: url('./images/bottomBar.png');
+  right: 9%;
+}
+
+.footer1 {
+  background-color:#f2f2f2;
+  display: grid;
+  /* flex-direction: row; */
+  /* add content ------------------------------------- */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 7%;
+  font-weight: 700;
+  color: #0471af;
+  text-align: center;
+}
+
+.box1 {
+  /* content: url('https://cdn.betterttv.net/emote/5aa16eb65d4a424654d7e3e5/3x'); */
+}
+
+
+/* .footer2 {
+  background-color: #f2f2f2;
+  display: grid;
+} */
+
 
 #apptop {
   position: relative;
@@ -14,6 +48,7 @@
 .row {
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
 }
 
 #tom {
@@ -28,5 +63,17 @@
   margin-top: 0;
   margin-bottom: 15px;
   overflow-y: auto;
- 
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 40%
+}
+
+#bensApp {
+  /* height: 507px;
+  width: 374px; */
+}
+
+#tomaccordion {
+margin-bottom: 20px;
 }
