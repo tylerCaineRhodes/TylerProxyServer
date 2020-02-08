@@ -1,8 +1,25 @@
 .wowes {
-  margin-left: 21%;
-  margin-right: 22%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
+#apptop {
+  width: 100%;
+}
+
 .row {
   display: flex;
   flex-direction: row;
+}
+
+#tom {
+  margin-top: 10%;
+  margin-bottom: 15px;
+  margin-right: 5%;
+  /* width: 50%; */
+}
+
+.ben, #pics {
+  margin-top: 0;
+  margin-bottom: 15px;
+  width: 50%;
 }
