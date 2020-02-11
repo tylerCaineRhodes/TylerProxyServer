@@ -1,0 +1,55 @@
+
+
+.wowes {
+  margin-left: 14%;
+  margin-right: 14%;
+  position: relative;
+  display: block;
+  max-width: 1032px;
+}
+
+.grid-container {
+  height: 617px;
+  display: inline-block;
+  position: relative;
+  content: url('./images/bottomBar.png');
+  right: 9%;
+}
+
+.grid-container:hover {
+  cursor: pointer;
+}
+
+#apptop {
+  position: relative;
+  display: block;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+#tom {
+  position: relative;
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: .5%;
+}
+
+.ben {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 15px;
+  overflow-y: auto;
+  position: relative;
+  height: 100%;
+}
+
+
+
+#tomaccordion {
+margin-top: 40px;
+margin-bottom: 20px;
+}
